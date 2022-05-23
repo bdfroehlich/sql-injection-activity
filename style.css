@@ -1,0 +1,24 @@
+body {
+    background-color: burlywood;
+    color:rgb(40, 103, 103);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.unauthorized {
+    animation: blinker 2s linear infinite;
+    color: red
+  }
+
+.error {
+    animation: blinker 2s linear infinite;
+    color: red
+}
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0.25;
+    }
+  }
+
